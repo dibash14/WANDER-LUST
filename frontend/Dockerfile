@@ -5,7 +5,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN npm install 
+RUN npm install --upgrade npm
 
 #second stage_____________
 
